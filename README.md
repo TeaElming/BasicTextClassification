@@ -35,15 +35,15 @@ Install dependencies:
 ## Levels
 
 - **E level**:
-  - Uses Bag-of-Words (CountVectorizer).
-  - Trains models and reports accuracy on the same training data.
+  - Uses Bag-of-Words (CountVectorizer). ✅ 
+  - Trains models and reports accuracy on the same training data.✅ 
 
 - **C-D level**:
-  - Uses Bag-of-Words and 10-fold cross-validation.
+  - Uses Bag-of-Words and 10-fold cross-validation.✅ 
 
 - **A-B level**:
-  - Uses TF-IDF (TfidfVectorizer) and 10-fold cross-validation.
-  - Checks if TF-IDF improves classification accuracy compared to Bag-of-Words.
+  - Uses TF-IDF (TfidfVectorizer) and 10-fold cross-validation.✅ 
+  - Checks if TF-IDF improves classification accuracy compared to Bag-of-Words.✅ 
 
 ## Notes
 - The `TextClassifier` class handles both Bag-of-Words and TF-IDF as well as
